@@ -1,6 +1,6 @@
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
-import { lusitana } from "@/app/ui/fonts";
+// import { lusitana } from "@/app/ui/fonts";
 import { Suspense } from "react";
 import {
   CardSkeleton,
@@ -8,12 +8,16 @@ import {
   RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
 import CardWrapper from "@/app/ui/dashboard/cards";
+import { useTranslations } from "next-intl";
+import { poppins } from "@/app/ui/fonts";
 
-export default async function Page() {
+
+export default function Page() {
+  const t = useTranslations('dashboard');
   return (
     <main>
-      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
-        Dashboard
+      <h1 className={`${poppins.className} mb-4 text-xl md:text-2xl`}>
+        {t('title')}
       </h1>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <Suspense fallback={<CardSkeleton />}>

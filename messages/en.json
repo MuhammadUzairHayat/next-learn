@@ -1,0 +1,37 @@
+{
+    "Home": {
+        "title": "Welcome to Acme.",
+        "description1": "This is the example for the",
+        "description2": "Next.js Learn Course",
+        "description3": "brought to you by Vercel",
+        "navigation": {
+            "home": "Home",
+            "profile": "Profile",
+            "settings": "Settings",
+            "logout": "Logout",
+            "login": "Login"
+        },
+        "messages": {
+            "welcome": "Welcome back, {username}!",
+            "noData": "No data available.",
+            "loading": "Loading..."
+        },
+        "buttons": {
+            "save": "Save",
+            "cancel": "Cancel",
+            "delete": "Delete"
+        }
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "description": "This is the dashboard page."
+    },
+    "Invoices": {
+        "title": "Invoices",
+        "description": "This is the invoices page."
+    },
+    "customers": {
+        "title": "Customers",
+        "description": "This is the customers page."
+    }
+}

@@ -2,12 +2,12 @@ import SideNav from "@/app/ui/dashboard/sidenav";
 
 // export const experimental_ppr = true;
 
-export const metadata = {
-  title: 'Next.js | Dashboard',
-  description: 'Dashboard page',
-}
+// export const metadata = {
+//   title: 'Next.js | Dashboard',
+//   description: 'Dashboard page',
+// }
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;

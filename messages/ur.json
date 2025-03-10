@@ -1,0 +1,37 @@
+{
+    "Home": {
+        "title": "میں خوش آمدید Acme",
+        "description1": "یہ مثال ہے",
+        "description2": "Next.js سیکھنے کے کورس کی",
+        "description3": "جو Vercel کی طرف سے پیش کیا گیا ہے",
+        "navigation": {
+            "home": "ہوم",
+            "profile": "پروفائل",
+            "settings": "ترتیبات",
+            "logout": "لاگ آؤٹ",
+            "login": "لاگ ان"
+        },
+        "messages": {
+            "welcome": "خوش آمدید، {username}!",
+            "noData": "کوئی ڈیٹا دستیاب نہیں ہے۔",
+            "loading": "لوڈ ہو رہا ہے..."
+        },
+        "buttons": {
+            "save": "محفوظ کریں",
+            "cancel": "منسوخ کریں",
+            "delete": "حذف کریں"
+        }
+    },
+    "dashboard": {
+        "title": "ڈیش بورڈ",
+        "description": "یہ ڈیش بورڈ صفحہ ہے۔"
+    },
+    "Invoices": {
+        "title": "انوائسز",
+        "description": "یہ انوائسز صفحہ ہے۔"
+    },
+    "customers": {
+        "title": "صارفین",
+        "description": "یہ صارفین صفحہ ہے۔"
+    }
+}
